@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+   <script src="script.js"></script>
+  <title>Formulario</title>
+</head>
+
+<body>
+  
+  <header>
+    <div  class="cabecera">
+        <h1 class="h1">Motos chimi</h1>
+        <img src="imagenes/moto.png" alt="" class="imgc">
+    </div>
+    <nav class="menu">
+        <a href="index.html" class="enlace">Home</a>
+        <a href="contacto.html" class="enlace">Contacto</a>
+        <a href="formulario.html" class="enlace">Registrarse</a>
+        <a href="cuenta.html" class="enlace">Mi Cuenta</a>
+    </nav>
+
+</header>
+  
+  <h2 class="registrar">Registrate!</h2>
+  <div class="myform">
+  <form class="row g-3" id= "form">
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="nombre">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Apellido</label>
+      <input type="text" class="form-control" id="apellido">
+    </div>
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Confirmar Email</label>
+      <input type="email" class="form-control" id="emailconfirm">
+    </div>
+  
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label" >Contraseña</label>
+      <input type="password" class="form-control" id="pass" minlength="5">
+    </div>
+
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label" >Confirmar Contraseña</label>
+      <input type="password" class="form-control" id="confirmar" minlength="5" >
+    </div>
+    <div class="col-12">
+      <button type="button" class="btn btn-primary" onClick="validar(this.form)">Registrarse</button>
+    </div>
+  </form>
+</div>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+    
+    <footer class="footer" >
+      <div class="foot-section">
+      <div class="container-foot">
+          <h4 class="footh4">VENTAS Y CONCESIONARIO</h4>
+          <h6 class="footh6"> CAPITAL FEDERAL<br>
+          </h6>
+          <p>Av. Juramento 1222, Belgrano CABA</p>
+          <p>Tel.:0810-2200-CHIMI (24464) INTERNO 108</p>
+          <p>Whatsapp: 11 2225 2223</p>
+          <p>e-mail:  info@chimi.com.ar
+          </p>
+          <p>Lunes a Viernes de 08:30 a 13:00 hs. y de 14:30 a 19:00 hs.</p>
+          <p>Sábados de 09:00 a 13:00 hs.</p>
+      </div>
+      <div class="container-foot">
+          <h4 class="footh4" >VENTAS Y SERVICIO TECNICO</h4>
+          <h6 class="footh6">CAPITAL FEDERAL</h6>
+          <p>Av. Cordoba 4500, Palermo, CABA</p>
+          <p>Tel.:0810-2200-CHIMI (24464) INTERNO 102</p>
+          <p>Whatsapp: 11 4000 5000</p>
+          <p>e-mail:service@chimi.com.ar
+          </p>
+          <p>Lunes a Viernes de 08:30 a 13:00 hs. y de 15:00 a 19:00 hs.</p>
+          <p>Sábados de 09:00 a 13:00 hs.</p>
+      </div>
+       <div class="container-foot">
+          <h4 class="footh4">EXPOSICIÓN</h4>
+          <h6 class="footh6" >CAPITAL FEDERAL<br>
+          </h6>
+          <p>Av. Juramento 1228, Belgrano CABA</p>
+          <p>Tel.:0810-2200-CHIMI (24464) INTERNO 101 Y 105</p>
+          <p>Whatsapp: 11 2267 1445</p>
+          <p>e-mail:expo@chimi.com.ar
+          </p>
+          <p>Lunes a Viernes de 10:00 a 13:00 hs. y de 15:00 a 19:00 hs.</p>
+          <p>Sábados de 10:00 a 13:00 hs.</p>
+          
+      </div>
+  </div>
+  </footer>
+</body>
+
+</html>
