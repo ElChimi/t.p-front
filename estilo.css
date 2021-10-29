@@ -1,0 +1,260 @@
+/*-----------------------Index-------------------*/
+.cabecera{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+}
+@keyframes color {
+    from {color: black;}
+    to {color: red;}
+  }
+.h1{ 
+    font-size: 250%;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+    background-color: #767676;
+    
+    
+}
+
+.enlace{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: black;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.row{
+    display:flex;
+    flex-direction:column;
+
+}
+
+.box{
+    display: block;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 3px;
+    width: auto;
+    border-color: gray;
+    border-width:  2px;
+    border-style: solid;
+    border-radius: 30px;
+   
+    
+}
+
+.boxh2{
+    text-align: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+.imgm{
+    border: 20px solid transparent;
+    width:40%;   
+  
+}
+.imgm:hover{
+    width:60%;
+    height: 60%;
+}
+
+.modelo{
+    font-size: 120%;
+    position:relative;
+    left: 46%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.segunda{
+   margin: auto;
+}
+.info{
+    width: 12%;
+    height: 2%;
+    background-color:#a00;
+    border-radius: 10px;
+    font-family:  Helvetica , Helvetica, Arial, sans-serif;
+    color: white;
+    position:relative;
+    left: 42%;
+    ;
+}
+/*----------------------- foot------------------------*/
+.footer{
+    background-image: url("imagenes/fondo.jpg");
+    background-position:50% 35%;
+    width:100%; 
+    height:100%;
+}
+
+
+.foot-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.container-foot{
+    color: white;
+    font-style:normal;
+}
+
+.footh4{
+    color: #ffba00;
+    font-size: 150%;
+}
+
+.footh6{
+    font-size: 100%;
+}
+/*----------------------- foot------------------------*/
+
+/*-----------------------Contacto-------------------*/
+.contacto{
+      display:flex;
+      justify-content: center;
+      color: red;
+      font-size: 250%;
+      font-family:Arial, Helvetica, sans-serif;
+}
+.row-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.bloque{   
+    border-color: black;
+    border-width:  1px;
+    border-style: solid;
+    border-radius: 20px;
+
+}
+.bloque-v{
+    border-color: black;
+    border-width:  1px;
+    border-style: solid;
+    border-radius: 20px;
+    
+}
+
+ .ventas{
+    padding-left: 5%;
+    font-size: 180%;
+}
+.lugar{
+    margin-top: -10%;
+    padding-left: 5%;
+    font-size: 150%;
+    color:red
+}
+
+.dato{
+    padding-left: 5%;
+    margin-top: -10%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*-----------------------Mi cuenta-------------------*/
+
+.cuenta{
+      display:flex;
+      justify-content: center;
+      color: red;
+      font-size: 200%;
+      font-family:Arial, Helvetica, sans-serif;
+}
+.formu{
+    border-color: black;
+    border-width:  1px;
+    border-style: solid;
+    border-radius: 20px;
+    width  : 300px;
+    height : 300px;
+    margin :  auto;
+    padding: 2%;
+    text-align: center;
+
+}
+
+.emailc{
+  font-size: 150%;
+  font-family:  Arial, Helvetica, sans-serif; 
+  display: block; 
+  padding: 5px; 
+}
+
+.emaill, .passi{
+    margin-top: 5%;
+    padding: 1%;
+
+}
+
+.passc{
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 5px; 
+    margin-top: 12%;
+}
+
+.buttoncuenta{
+    margin-top: 15%;
+    width: 50%;
+    height: 10%;
+    background-color:#a00;
+    border-radius: 10px;
+    font-family:  Helvetica , Helvetica, Arial, sans-serif;
+}
+
+.acuenta{
+    font-size: 75%;
+    color: #a00;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.acuentadiv{
+    margin-top: 20px;
+}
+
+
+/* ------------------ Formulario ------------------*/
+.registrar{
+      display:flex;
+      justify-content: center;
+      color: red;
+      font-size: 300%;
+      font-family:Arial, Helvetica, sans-serif;
+}    
+
+.myform{
+    border-color: black;
+    border-width:  2px;
+    border-style: solid;
+    border-radius: 20px;
+    width  : 400px;
+    height : 650px;
+    margin :  auto;
+    padding: 2%;
+    text-align: center;
+    padding-top: 3%;
+    }
+   
+
+    .form-label{
+        font-size: 100%;
+        font-family:  Arial, Helvetica, sans-serif;   
+    }
+
+    
+
